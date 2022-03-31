@@ -10,20 +10,21 @@
 I made a step-by-step tutorial on YouTube [HERE](https://www.youtube.com/watch?v=Jz3cxK1rztw)
 
 Or follow the steps below:
+
 1. Clone this repository
 2. `cd sanity`
 3. `npm install -g @sanity/cli`
 4. `sanity init` and follow the prompts (you will need to create a Sanity account if you haven't already)
 5. `npm run graphql-deploy`
 6. `cd ..` to navigate back to the root folder
-5. `npm install` in the project's root folder
-6. `npm run dev` to start the studio and frontend locally
+7. `npm install` in the project's root folder
+8. `npm run dev` to start the studio and frontend locally
    - Your studio should be running on [http://localhost:3333](http://localhost:3333)
    - Your frontend should be running on [http://localhost:8000](http://localhost:8000)
-7. Open [http://localhost:3333](http://localhost:3333) and copy the project ID from the Project info section
-8. Navigate to the client-config.js file in the gatsby directory
-9. Replace the project ID with your Project ID
-10. `npm run build` to build to production locally
+9. Open [http://localhost:3333](http://localhost:3333) and copy the project ID from the Project info section
+10. Navigate to the client-config.js file in the gatsby directory
+11. Replace the project ID with your Project ID
+12. `npm run build` to build to production locally
 
 ## Enable real-time content preview on development
 
@@ -32,6 +33,8 @@ Or follow the steps below:
 3. Restart the development server (`ctrl + C` and `npm run dev`).
 
 If you want to turn off preview you can set `watchMode: false` in gatsby-config.js. If you just want to preview published changes you can set `overlayDrafts: false` in gatsby-config.js.
+
+### Added Tailwind 3 and removed style-components
 
 ## Stuck? Get help
 
